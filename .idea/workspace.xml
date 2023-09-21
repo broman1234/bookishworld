@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33db28dd-2fb5-457e-858b-ddffe0128765" name="Changes" comment="fix some bugs in SecurityConfig and add some data to the database.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/components" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/bookSupplementation/components" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/components" />
       <recent name="$PROJECT_DIR$/frontend/src/login/actions" />
@@ -264,7 +261,7 @@
       <workItem from="1694770877584" duration="6000" />
       <workItem from="1694831662922" duration="64427000" />
       <workItem from="1695046433646" duration="8964000" />
-      <workItem from="1695221825939" duration="2026000" />
+      <workItem from="1695221825939" duration="13992000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for the project">
       <created>1692515205810</created>
