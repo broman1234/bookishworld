@@ -29,3 +29,16 @@ j
 :.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml,0/b/0ba5d80b4b81abc48711ba4443c8938f25bfec76
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+B
+frontend/README.md,6/a/6a3a36e34dda2b89c027f00ac950371695b13c75
+;
+.gitmodules,7/4/7445606fbf8f3683cd42bdc54b05d7a0bc2dfc44
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+C
+frontend/.gitignore,e/2/e23a63a9f05477a70f6e75d709dbb4eae2db742d
+D
+frontend/src/App.css,8/a/8a75d7beb1451b6fe9282486fbd897a9a8156b7f
+^
+.frontend/src/dashboard/actions/useDashboard.js,8/a/8a11932242adb8184cac0e7ae9c3d94ab1569c9f
