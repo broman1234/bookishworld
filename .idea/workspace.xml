@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33db28dd-2fb5-457e-858b-ddffe0128765" name="Changes" comment="fix some bugs in SecurityConfig and add some data to the database.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/dashboard/booktable/actions/useBookInfoModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/dashboard/booktable/actions/useBookInfoModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/dashboard/booktable/components/BookInfoModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/dashboard/booktable/components/BookInfoModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/dashboard/booktable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/dashboard/booktable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/com/mm/backend/exception/ExceptionHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/mm/backend/exception/ExceptionHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/dashboard/booktable/actions/useBookTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/dashboard/booktable/actions/useBookTable.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +99,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/bookInfoSection" />
+      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/pageFooterSection" />
+      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/searchSection" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/components" />
-      <recent name="$PROJECT_DIR$/frontend/src/dashboard/bookSupplementation/components" />
-      <recent name="$PROJECT_DIR$/frontend/src/dashboard/components" />
-      <recent name="$PROJECT_DIR$/frontend/src/login/actions" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,7 +118,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
-    <configuration name="BookControllerTest.getBookSuccessfullyGivenBookId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -131,7 +131,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.controller.BookControllerTest.getBookSuccessfullyGivenBookId&quot;" />
+            <option value="&quot;com.mm.backend.controller.BookControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -141,7 +141,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.getBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookControllerTest.deleteBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -154,7 +154,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.controller.BookControllerTest.getBookWhenBookNotFound&quot;" />
+            <option value="&quot;com.mm.backend.controller.BookControllerTest.deleteBookWhenBookNotFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,7 +164,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookControllerTest.deleteBooksByIds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -177,7 +177,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.service.BookServiceTest&quot;" />
+            <option value="&quot;com.mm.backend.controller.BookControllerTest.deleteBooksByIds&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,7 +187,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookServiceTest.getBookSuccessfullyGivenBookId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest.deleteBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -200,7 +200,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.service.BookServiceTest.getBookSuccessfullyGivenBookId&quot;" />
+            <option value="&quot;com.mm.backend.service.BookServiceTest.deleteBookWhenBookNotFound&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,7 +210,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookServiceTest.getBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest.deleteBooksByIds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -223,7 +223,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.service.BookServiceTest.getBookWhenBookNotFound&quot;" />
+            <option value="&quot;com.mm.backend.service.BookServiceTest.deleteBooksByIds&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -246,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BookControllerTest.getBookWhenBookNotFound" />
-        <item itemvalue="Gradle.BookServiceTest.getBookWhenBookNotFound" />
-        <item itemvalue="Gradle.BookServiceTest.getBookSuccessfullyGivenBookId" />
-        <item itemvalue="Gradle.BookControllerTest.getBookSuccessfullyGivenBookId" />
-        <item itemvalue="Gradle.BookServiceTest" />
+        <item itemvalue="Gradle.BookServiceTest.deleteBooksByIds" />
+        <item itemvalue="Gradle.BookControllerTest.deleteBooksByIds" />
+        <item itemvalue="Gradle.BookServiceTest.deleteBookWhenBookNotFound" />
+        <item itemvalue="Gradle.BookControllerTest.deleteBookWhenBookNotFound" />
+        <item itemvalue="Gradle.BookControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +280,12 @@
       <workItem from="1695046433646" duration="8964000" />
       <workItem from="1695221825939" duration="14294000" />
       <workItem from="1695447247345" duration="70000" />
-      <workItem from="1695447330489" duration="38168000" />
+      <workItem from="1695447330489" duration="38600000" />
+      <workItem from="1695617532939" duration="3142000" />
+      <workItem from="1695647471315" duration="8276000" />
+      <workItem from="1695721222295" duration="13698000" />
+      <workItem from="1695803270032" duration="6675000" />
+      <workItem from="1695962253057" duration="24341000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for the project">
       <created>1692515205810</created>
