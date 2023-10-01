@@ -46,8 +46,6 @@ s
 Cbackend/src/main/kotlin/com/mm/backend/controller/AuthController.kt,0/a/0a842a3c06404c7f8c4af28684e6971b1c3559d3
 V
 &frontend/src/login/actions/useLogin.js,d/d/dd164f17390be76c2a25ae48e50b0e814c1f6f20
-i
-9frontend/src/dashboard/booktable/components/PageFooter.js,7/1/7193a12ec3ef3b648e2127cd7ababbc374a5622a
 {
 Kfrontend/src/dashboard/booktable/bookInfoSection/SubmitConfirmationPopup.js,0/3/03af958cb66ee997088a20a8c6a05714183df5b3
 ^
@@ -56,5 +54,3 @@ e
 5backend/src/main/kotlin/com/mm/backend/models/Book.kt,4/c/4c7862ed85d471732de0117fc5643d1970dcd5bc
 l
 <backend/src/main/kotlin/com/mm/backend/dto/GetBookRequest.kt,d/6/d6976d59db5e759e5e86b67437b59006de5bea21
-F
-frontend/src/index.css,9/1/91e522be11677dbeaea3b85493b4868d2728cb6c

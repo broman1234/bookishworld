@@ -38,8 +38,6 @@ B
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 C
 frontend/.gitignore,e/2/e23a63a9f05477a70f6e75d709dbb4eae2db742d
-i
-9frontend/src/dashboard/booktable/components/PageFooter.js,7/1/7193a12ec3ef3b648e2127cd7ababbc374a5622a
 s
 Cbackend/src/main/kotlin/com/mm/backend/repository/BookRepository.kt,0/0/003bbcdaabf48355204c4b68c4446cdba77f1bd4
 r
@@ -56,5 +54,3 @@ e
 5backend/src/main/kotlin/com/mm/backend/models/Book.kt,4/c/4c7862ed85d471732de0117fc5643d1970dcd5bc
 l
 <backend/src/main/kotlin/com/mm/backend/dto/GetBookRequest.kt,d/6/d6976d59db5e759e5e86b67437b59006de5bea21
-F
-frontend/src/index.css,9/1/91e522be11677dbeaea3b85493b4868d2728cb6c
