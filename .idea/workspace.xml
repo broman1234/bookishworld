@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33db28dd-2fb5-457e-858b-ddffe0128765" name="Changes" comment="fix some bugs in SecurityConfig and add some data to the database." />
+    <list default="true" id="33db28dd-2fb5-457e-858b-ddffe0128765" name="Changes" comment="fix some bugs in SecurityConfig and add some data to the database.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +37,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="JavaScript File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -50,7 +56,6 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -279,7 +284,7 @@
       <workItem from="1695721222295" duration="13698000" />
       <workItem from="1695803270032" duration="6675000" />
       <workItem from="1695962253057" duration="25606000" />
-      <workItem from="1696060679727" duration="18461000" />
+      <workItem from="1696060679727" duration="26074000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for the project">
       <created>1692515205810</created>
