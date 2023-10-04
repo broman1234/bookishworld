@@ -42,11 +42,5 @@ s
 Cbackend/src/main/kotlin/com/mm/backend/repository/BookRepository.kt,0/0/003bbcdaabf48355204c4b68c4446cdba77f1bd4
 r
 Bbackend/src/test/kotlin/com/mm/backend/testmodels/BookTestModel.kt,d/6/d6e40082b0f0eba20b377ebc1b46f74f9025ef3a
-V
-&frontend/src/login/actions/useLogin.js,d/d/dd164f17390be76c2a25ae48e50b0e814c1f6f20
 {
 Kfrontend/src/dashboard/booktable/bookInfoSection/SubmitConfirmationPopup.js,0/3/03af958cb66ee997088a20a8c6a05714183df5b3
-^
-.frontend/src/dashboard/actions/useDashboard.js,8/a/8a11932242adb8184cac0e7ae9c3d94ab1569c9f
-l
-<backend/src/main/kotlin/com/mm/backend/dto/GetBookRequest.kt,d/6/d6976d59db5e759e5e86b67437b59006de5bea21
