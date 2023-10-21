@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33db28dd-2fb5-457e-858b-ddffe0128765" name="Changes" comment="fix some bugs in SecurityConfig and add some data to the database.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f3dea29e-44a1-4ff9-90e1-512d629e9b92.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/com/mm/backend/configuration/JwtTokenUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/com/mm/backend/configuration/JwtTokenUtil.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,12 @@
         <task path="$PROJECT_DIR$/backend">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -37,10 +42,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="JUnit5 Test Class" />
-        <option value="JavaScript File" />
         <option value="Kotlin Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,61 +63,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/man.mo/Documents/bookishworld&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Kotlin&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3241ca6184e7e06d7e2313367e60913a&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/man.mo/Documents/bookishworld",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "3241ca6184e7e06d7e2313367e60913a",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect": [
+      "H2",
+      "GenericSQL",
+      "MySQL"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/test/resources/migration" />
+      <recent name="$PROJECT_DIR$/backend/src/test/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/frontend/public/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/dashBoard/mainContentSection/ratingRankSection" />
+      <recent name="$PROJECT_DIR$/frontend/src/dashBoard/mainContentSection" />
+      <recent name="$PROJECT_DIR$/frontend/src/dashBoard" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable" />
       <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/bookInfoSection" />
-      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/pageFooterSection" />
-      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/searchSection" />
-      <recent name="$PROJECT_DIR$/frontend/src/dashboard/booktable/components" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.mm.backend.dto.book" />
       <recent name="com.mm.backend.utils" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mm.backend.controller" />
       <recent name="com.mm.backend.dto" />
       <recent name="com.mm.backend.service" />
-      <recent name="com.mm.backend.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
@@ -139,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.deleteBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookControllerTest.getBooksOrderByPopularityRank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -152,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.controller.BookControllerTest.deleteBookWhenBookNotFound&quot;" />
+            <option value="&quot;com.mm.backend.controller.BookControllerTest.getBooksOrderByPopularityRank&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -162,7 +181,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookControllerTest.deleteBooksByIds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -175,7 +194,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.controller.BookControllerTest.deleteBooksByIds&quot;" />
+            <option value="&quot;com.mm.backend.service.BookServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,7 +204,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookServiceTest.deleteBookWhenBookNotFound" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest.getBooksOrderByPopularityRank" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -198,7 +217,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.service.BookServiceTest.deleteBookWhenBookNotFound&quot;" />
+            <option value="&quot;com.mm.backend.service.BookServiceTest.getBooksOrderByPopularityRank&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -208,7 +227,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookServiceTest.deleteBooksByIds" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BookServiceTest.getBooksOrderByRating" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
@@ -221,7 +240,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mm.backend.service.BookServiceTest.deleteBooksByIds&quot;" />
+            <option value="&quot;com.mm.backend.service.BookServiceTest.getBooksOrderByRating&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -244,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BookServiceTest.deleteBooksByIds" />
-        <item itemvalue="Gradle.BookControllerTest.deleteBooksByIds" />
-        <item itemvalue="Gradle.BookServiceTest.deleteBookWhenBookNotFound" />
-        <item itemvalue="Gradle.BookControllerTest.deleteBookWhenBookNotFound" />
+        <item itemvalue="Gradle.BookServiceTest.getBooksOrderByRating" />
         <item itemvalue="Gradle.BookControllerTest" />
+        <item itemvalue="Gradle.BookServiceTest" />
+        <item itemvalue="Gradle.BookServiceTest.getBooksOrderByPopularityRank" />
+        <item itemvalue="Gradle.BookControllerTest.getBooksOrderByPopularityRank" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +303,15 @@
       <workItem from="1695721222295" duration="13698000" />
       <workItem from="1695803270032" duration="6675000" />
       <workItem from="1695962253057" duration="25606000" />
-      <workItem from="1696060679727" duration="54239000" />
+      <workItem from="1696060679727" duration="81993000" />
+      <workItem from="1696834757961" duration="634000" />
+      <workItem from="1696835819380" duration="1481000" />
+      <workItem from="1696856840345" duration="4637000" />
+      <workItem from="1697172288116" duration="15816000" />
+      <workItem from="1697193359110" duration="55155000" />
+      <workItem from="1697422521427" duration="1291000" />
+      <workItem from="1697727419682" duration="1354000" />
+      <workItem from="1697866900613" duration="6221000" />
     </task>
     <task id="LOCAL-00001" summary="first commit for the project">
       <created>1692515205810</created>
